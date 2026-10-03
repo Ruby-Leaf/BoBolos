@@ -130,10 +130,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_cozinha","path":"rooms/rm_cozinha/rm_cozinha.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_creditos","path":"rooms/rm_creditos/rm_creditos.yy",},},
     {"roomId":{"name":"rm_salao","path":"rooms/rm_salao/rm_salao.yy",},},
+    {"roomId":{"name":"rm_cozinha","path":"rooms/rm_cozinha/rm_cozinha.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

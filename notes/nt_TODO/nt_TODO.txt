@@ -12,8 +12,8 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 
 ## TODO
 
-* [ ] FEAT: pedido e falas dos clientes flora e annie 
-  * = scr_banco_clientes line 64 - 118
+* [ ] FEAT: pedidos e respostas de annie 
+  * = scr_banco_clientes line 102 - 118
 
 * [ ] FEAT: ativar som de toque
   * = obj_telefone / criar line 10
@@ -47,3 +47,6 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 * [X] FEAT: controlar os ingredientes na mão e suas interações
   * ^ ainda não finalizado, falta passar do pop_up para a mão
   * = obj_recipientes
+
+* [X] FEAT: pedidos e respostas de Flora 
+  * = scr_banco_clientes

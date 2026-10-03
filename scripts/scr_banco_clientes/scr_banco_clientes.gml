@@ -14,12 +14,12 @@ function scr_banco_clientes(){
 				scr_alterar_receita(SABORES_BOLO.LARANJA, ALTERACOES_RECEITA.SEM_ALTERACAO, "", 1),
             ],
             texto_pedidos: [
-			"Gostaria de um bolo de laranja, de preferência com 50% mais ovos", 
-			"Gostaria de um bolo de Baunilha, de preferência com 50% mais ovos",
-			"Hoje é para minha mãe, então vamos com os classicos, laranja simples"
+			"Gostaria de um bolo de laranja, de preferência com 50% mais ovos.", 
+			"Gostaria de um bolo de Baunilha, de preferência com 50% mais ovos.",
+			"Hoje é para minha mãe, então vamos com os classicos, laranja simples."
 			],
-            respostas_positivas: ["Obrigado", "Você manda bem","Mais um pouco e eu me caso com esse bolo"],
-            respostas_negativas: ["Eca! não pedi isso", "Como ousa, isso está horrivel"],
+            respostas_positivas: ["Obrigado.", "Você manda bem!","Mais um pouco e eu me caso com esse bolo."],
+            respostas_negativas: ["Eca! não pedi isso.", "Como ousa, isso está horrivel!"],
         },
         {
             
@@ -33,12 +33,12 @@ function scr_banco_clientes(){
 				scr_alterar_receita(SABORES_BOLO.LARANJASEMGLUTEN,ALTERACOES_RECEITA.SEM_ALTERACAO,"",1)
 			],
             texto_pedidos: [
-			"A mamãe Noel está de mau humor, chocolate em dobro por favor",
-			"Hoje vai ter um aniversario na fabrica! baunilha por favor!",
-			"O papai noel está em uma dieta sem glutten, um bolo de laranja sem gluten por favor"
+			"A Mamãe Noel está de mau humor, chocolate em dobro por favor.",
+			"Hoje terá um aniversario na fábrica! Baunilha, por favor.",
+			"O papai noel está em uma dieta sem glúten. Um bolo de laranja, por favor."
 			],
-            respostas_positivas: ["você vai para a lista dos bonzinhos", "salvou a todos nós","se algum dia quiser, você pode trabalhar na fabrica"],
-            respostas_negativas: ["Só vai ter carvão para você", "Isso é mal"],
+            respostas_positivas: ["Você vai para a lista dos bonzinhos.", "Salvou a todos nós.","Se algum dia quiser, você pode trabalhar na fábrica."],
+            respostas_negativas: ["Só vai ter carvão para você.", "Isso é mal."],
         },
 		{
             
@@ -52,12 +52,12 @@ function scr_banco_clientes(){
 			scr_alterar_receita(SABORES_BOLO.CHOCOLATEVEGETAL,ALTERACOES_RECEITA.TROCAR_QTD,"chocolate",4)
 			],
             texto_pedidos: [
-			"Blobby quer chocolate por favor, leite vegetal",
-			"Blobby alergico a leite, baunilha com leite vegetal, blobby quer baunilha em dobro",
-			"Blobby pede chocolate, 4 vezes mais, blobby pagar, blobby quer leite vegetal"
+			"Blobby quer chocolate por favor, leite vegetal.",
+			"Blobby alérgico a leite. Baunilha, mas blobby quer baunilha em dobro!",
+			"Blobby pede chocolate, 4 vezes mais! Blobby pagar. Blobby quer leite vegetal."
 			],
-            respostas_positivas: ["Blobby feliz"],
-            respostas_negativas: ["ewwwww...", "blobby triste"],
+            respostas_positivas: ["Blobby feliz!"],
+            respostas_negativas: ["ewwwww...", "Blobby triste."],
         },
 		{
             
@@ -65,18 +65,18 @@ function scr_banco_clientes(){
             sprite_frame: 3,
 			frame_feliz: 11,
 			frame_bravo: 18,
-            requisitos_pedidos: [
-			{}, 
-			{}, 
-			{}
+            requisitos_pedidos: [ 
+                scr_alterar_receita(SABORES_BOLO.LARANJA,ALTERACOES_RECEITA.ACRESC_INGREDIENTE,"baunilha",2), 
+				scr_alterar_receita(SABORES_BOLO.BAUNILHA,ALTERACOES_RECEITA.SEM_ALTERACAO,"",1),
+				scr_alterar_receita(SABORES_BOLO.LARANJASEMGLUTEN,ALTERACOES_RECEITA.REMOVER_INGREDIENTE,"ovos",0)
 			],
             texto_pedidos: [
-			"a",
-			"b",
-			"c"
+			"Adoro a fragrância de laranjas, especialmente quando tem exatamente 2 unidades de baunilha no meu bolo de laranja.",
+			"Apesar da baunilha não vir da flor, a flor ainda é linda! Quero meu bolo do jeitinho que você sempre faz.",
+			"Após a flor vem o fruto, e após uma ligação da Flora vem um bolo de laranja, mas sem ovos."
 			],
-            respostas_positivas: ["", ""],
-            respostas_negativas: ["", ""],
+            respostas_positivas: ["Como uma brisa na primavera!", "Este sabor desabrocha na boca."],
+            respostas_negativas: ["Que desperdício de vida natural nestes ingredientes...", "Prefiria comer folha que isso."],
         },
 		{
             
@@ -90,11 +90,11 @@ function scr_banco_clientes(){
 			scr_alterar_receita(SABORES_BOLO.CHOCOLATE, ALTERACOES_RECEITA.TROCAR_QTD, "leite", 2)
 			],
             texto_pedidos: [
-			"hmmmm.... um bolo... chocolate... sem leite...",
+			"Hmmmm.... um bolo... chocolate... sem leite...",
 			".... baunilha... pode leite nessa... não é para mim...",
-			"chocolate. leite em dobro."
+			"Chocolate. leite em dobro."
 			],
-            respostas_positivas: ["obrigado...", "isso tem uma cara boa...","sera que vou poder comer..."],
+            respostas_positivas: ["Obrigado...", "Isso tem uma cara boa...","Será que vou poder comer? ..."],
             respostas_negativas: ["NÃO FOI O QUE EU PEDI", "ISSO É SERIO?","VOCÊ SABE COZINHAR??"],
         },
 		{
@@ -104,17 +104,17 @@ function scr_banco_clientes(){
 			frame_feliz: 13,
 			frame_bravo: 20,
             requisitos_pedidos: [
-			{}, 
-			{}, 
-			{}
+			scr_alterar_receita(SABORES_BOLO.CHOCOLATE, ALTERACOES_RECEITA.ACRESC_INGREDIENTE, "laranja", 1), 
+			scr_alterar_receita(SABORES_BOLO.BAUNILHA, ALTERACOES_RECEITA.SEM_ALTERACAO, "", 1), // PENDENTE
+			scr_alterar_receita(SABORES_BOLO.CHOCOLATE, ALTERACOES_RECEITA.TROCAR_QTD, "leite", 2) // PENDENTE
 			],
             texto_pedidos: [
-			"a",
-			"b",
-			"c"
+			"Oh sim, eu vejo um bolo de chocolate com adição de uma laranja...",
+			"Sonhei com um bolo de baunilha em que a quantidade de baunilha equivale a 1/10 do leite",
+			"Pega a visão. Triplo de farinha vegetal no meu bolo de laranja, que tal?"
 			],
-            respostas_positivas: ["", ""],
-            respostas_negativas: ["", ""],
+            respostas_positivas: ["", ""], // PENDENTE
+            respostas_negativas: ["", ""], // PENDENTE
         },
 		{
             
