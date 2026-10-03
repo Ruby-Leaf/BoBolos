@@ -10,7 +10,7 @@ function scr_draw_pop_up(textos_arr, opcoes){
 	
 	var _estetica = {
 		cor_fundo: c_ltgray,
-	    texto_cores: [_cor_default_texto],
+	    texto_cores: [_cor_default_texto], 
 	    fontes: [_fonte_default],
 	    largura: room_width / 2,
 	    altura: room_height / 2,

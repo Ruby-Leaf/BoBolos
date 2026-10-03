@@ -18,9 +18,7 @@ TODO:
 
 [] // TODO: criar um segundo ambiente para o forno
 
-[] //TODO: controlar os ingredientes na mão e suas interações
-- ainda não finalizado, falta passar do pop_up para a mão
-= obj_recipientes
+[] // TODO criar quando os itens vão para a mão
 
 
 TODOs Resolvidos:
@@ -43,3 +41,7 @@ TODOs Resolvidos:
 [X] // TODO: instanciar os objetos da cozinha
 
 [X] //TODO: adcionar a parte do codigo para os objetos da cozinha
+
+[X] //TODO: controlar os ingredientes na mão e suas interações
+- ainda não finalizado, falta passar do pop_up para a mão
+= obj_recipientes

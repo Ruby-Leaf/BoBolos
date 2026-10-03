@@ -5,16 +5,16 @@
   "managed":true,
   "name":"obj_leite",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_recipientes","path":"objects/obj_recipientes/obj_recipientes.yy",},"propertyId":{"name":"conteudo","path":"objects/obj_recipientes/obj_recipientes.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"INGREDIENTES.LEITE",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_recipientes","path":"objects/obj_recipientes/obj_recipientes.yy",},"propertyId":{"name":"conteudo_name","path":"objects/obj_recipientes/obj_recipientes.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Leite",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_recipientes","path":"objects/obj_recipientes/obj_recipientes.yy",},"propertyId":{"name":"conteudo","path":"objects/obj_recipientes/obj_recipientes.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"INGREDIENTES.LEITE",},
   ],
   "parent":{
     "name":"recipientes",
     "path":"folders/Objetos/Cozinha/recipientes.yy",
   },
   "parentObjectId":{
-    "name":"obj_recipientes",
-    "path":"objects/obj_recipientes/obj_recipientes.yy",
+    "name":"obj_porcao",
+    "path":"objects/obj_porcao/obj_porcao.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

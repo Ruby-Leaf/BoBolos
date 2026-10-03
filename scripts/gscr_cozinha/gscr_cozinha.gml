@@ -27,4 +27,9 @@ function gscr_cozinha(){
 		FARINHASG,
 		LEITEVG,
 	}
+	
+	// ---------- Alterados pelo obj_recipiente
+	global.selecionando_ingrediente = false;
+	global.conteudo_selecionado = "";
+	global.tipo_selecionado = "";
 }

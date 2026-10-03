@@ -13,8 +13,8 @@
     "path":"folders/Objetos/Cozinha/recipientes.yy",
   },
   "parentObjectId":{
-    "name":"obj_recipientes",
-    "path":"objects/obj_recipientes/obj_recipientes.yy",
+    "name":"obj_porcao",
+    "path":"objects/obj_porcao/obj_porcao.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
