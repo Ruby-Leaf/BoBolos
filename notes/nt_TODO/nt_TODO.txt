@@ -1,47 +1,49 @@
-// ------------------------------  
-// To Do list
-// ------------------------------
-notas: 
-	[] TODO: "tarefa"
-	- "observação importante"
-	= "endereço se existir"
+# Lista de tarefas do BoBolos
+
+Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melhoria de código.
+
+## Notas 
+
+**Modelo de adição** de item na lista de tarefas
+* [ ] TIPO: "tarefa"
+* `^` "observação importante"
+* `=` "endereço se existir"
 
 
+## TODO
+
+* [ ] FEAT: pedido e falas dos clientes flora e annie 
+  * = scr_banco_clientes line 64 - 118
+
+* [ ] FEAT: ativar som de toque
+  * = obj_telefone / criar line 10
+
+* [ ] FEAT: criar um segundo ambiente para o forno
+
+* [ ] FEAT: criar quando os itens vão para a mão
 
 
-TODO:
-[] //TODO: pedido e falas dos clientes flora e annie
-= scr_banco_clientes line 64 - 118
+## DONE
 
-[] // TODO: ativar som de toque
-= obj_telefone / criar line 10
+* [X] REFACTOR: trocar para uma fonte de parágrafo 
+  * = scr_reset_draw line 8
 
-[] // TODO: criar um segundo ambiente para o forno
+* [X] FEAT: adicionar novas receitas
+  * = scr_receitas line 11
 
-[] // TODO criar quando os itens vão para a mão
+* [X] FIX: Fontes agora aceitam acentos e Ç
 
+* [X] FEAT: adicionar os clientes e suas falas
+  * = scr_banco_clientes line 6
 
-TODOs Resolvidos:
+* [X] FEAT: criar sprites e objetos do recipientes
 
-[X] // TODO: trocar para uma fonte de parágrafo 
-= scr_reset_draw line 8
+* [X] FEAT: criar sprites e objetos das mobilias da cozinha
 
-[X] //TODO: adicionar novas receitas
-= scr_receitas line 11
+* [X] FEAT: instanciar os objetos da cozinha
 
-[X] Fontes agora aceitam acentos e Ç
+* [X] FEAT: adcionar a parte do codigo para os objetos da cozinha
 
-[X] //TODO: adicionar os clientes e suas falas
-= scr_banco_clientes line 6
-
-[X] // TODO: criar sprites e objetos do recipientes
-
-[X] // TODO: criar sprites e objetos das mobilias da cozinha
-
-[X] // TODO: instanciar os objetos da cozinha
-
-[X] //TODO: adcionar a parte do codigo para os objetos da cozinha
-
-[X] //TODO: controlar os ingredientes na mão e suas interações
-- ainda não finalizado, falta passar do pop_up para a mão
-= obj_recipientes
+* [X] FEAT: controlar os ingredientes na mão e suas interações
+  * ^ ainda não finalizado, falta passar do pop_up para a mão
+  * = obj_recipientes
