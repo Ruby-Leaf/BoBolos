@@ -10,8 +10,8 @@ function scr_banco_clientes(){
 			frame_feliz: 8,
 			frame_bravo: 15,
             requisitos_pedidos: [
-                scr_alterar_receita(SABORES_BOLO.LARANJA, ALTERACOES_RECEITA.TROCAR_QTD, "ovos", 1.5),
-				scr_alterar_receita(SABORES_BOLO.BAUNILHA, ALTERACOES_RECEITA.TROCAR_QTD, "ovos", 1.5),
+                scr_alterar_receita(SABORES_BOLO.LARANJA, ALTERACOES_RECEITA.TROCAR_QTD, INGREDIENTES.OVO, 1.5),
+				scr_alterar_receita(SABORES_BOLO.BAUNILHA, ALTERACOES_RECEITA.TROCAR_QTD, INGREDIENTES.OVO, 1.5),
 				scr_alterar_receita(SABORES_BOLO.LARANJA, ALTERACOES_RECEITA.SEM_ALTERACAO, "", 1),
             ],
             texto_pedidos: [
@@ -29,7 +29,7 @@ function scr_banco_clientes(){
 			frame_feliz: 9,
 			frame_bravo: 16,
             requisitos_pedidos: [
-				scr_alterar_receita(SABORES_BOLO.CHOCOLATE,ALTERACOES_RECEITA.TROCAR_QTD,"chocolate",2), 
+				scr_alterar_receita(SABORES_BOLO.CHOCOLATE,ALTERACOES_RECEITA.TROCAR_QTD,INGREDIENTES.CHOCOLATE,2), 
 				scr_alterar_receita(SABORES_BOLO.BAUNILHA,ALTERACOES_RECEITA.SEM_ALTERACAO,"",1), 
 				scr_alterar_receita(SABORES_BOLO.LARANJASEMGLUTEN,ALTERACOES_RECEITA.SEM_ALTERACAO,"",1)
 			],
@@ -49,8 +49,8 @@ function scr_banco_clientes(){
 			frame_bravo: 17,
             requisitos_pedidos: [
 			scr_alterar_receita(SABORES_BOLO.CHOCOLATEVEGETAL,ALTERACOES_RECEITA.SEM_ALTERACAO,"",1), 
-			scr_alterar_receita(SABORES_BOLO.BAUNILHAVEGETAL,ALTERACOES_RECEITA.TROCAR_QTD,"baunilha",2), 
-			scr_alterar_receita(SABORES_BOLO.CHOCOLATEVEGETAL,ALTERACOES_RECEITA.TROCAR_QTD,"chocolate",4)
+			scr_alterar_receita(SABORES_BOLO.BAUNILHAVEGETAL,ALTERACOES_RECEITA.TROCAR_QTD,INGREDIENTES.BAUNILHA,2), 
+			scr_alterar_receita(SABORES_BOLO.CHOCOLATEVEGETAL,ALTERACOES_RECEITA.TROCAR_QTD,INGREDIENTES.CHOCOLATE,4)
 			],
             texto_pedidos: [
 			"Blobby quer chocolate por favor, leite vegetal.",
@@ -67,9 +67,9 @@ function scr_banco_clientes(){
 			frame_feliz: 11,
 			frame_bravo: 18,
             requisitos_pedidos: [ 
-                scr_alterar_receita(SABORES_BOLO.LARANJA,ALTERACOES_RECEITA.ACRESC_INGREDIENTE,"baunilha",2), 
+                scr_alterar_receita(SABORES_BOLO.LARANJA,ALTERACOES_RECEITA.ACRESC_INGREDIENTE,INGREDIENTES.BAUNILHA,2), 
 				scr_alterar_receita(SABORES_BOLO.BAUNILHA,ALTERACOES_RECEITA.SEM_ALTERACAO,"",1),
-				scr_alterar_receita(SABORES_BOLO.LARANJASEMGLUTEN,ALTERACOES_RECEITA.REMOVER_INGREDIENTE,"ovos",0)
+				scr_alterar_receita(SABORES_BOLO.LARANJASEMGLUTEN,ALTERACOES_RECEITA.REMOVER_INGREDIENTE,INGREDIENTES.OVO,0)
 			],
             texto_pedidos: [
 			"Adoro a fragrância de laranjas, especialmente quando tem exatamente 2 unidades de baunilha no meu bolo de laranja.",
@@ -105,14 +105,14 @@ function scr_banco_clientes(){
 			frame_feliz: 13,
 			frame_bravo: 20,
             requisitos_pedidos: [
-			scr_alterar_receita(SABORES_BOLO.CHOCOLATE, ALTERACOES_RECEITA.ACRESC_INGREDIENTE, "laranja", 1), 
-			scr_alterar_receita(SABORES_BOLO.BAUNILHA, ALTERACOES_RECEITA.TROCAR_QTD, "baunilha", 5),
-			scr_alterar_receita(SABORES_BOLO.CHOCOLATE, ALTERACOES_RECEITA.TROCAR_QTD, "farinha_vegetal", 3),
+			scr_alterar_receita(SABORES_BOLO.CHOCOLATE, ALTERACOES_RECEITA.ACRESC_INGREDIENTE, INGREDIENTES.LARANJA, 1), 
+			scr_alterar_receita(SABORES_BOLO.BAUNILHA, ALTERACOES_RECEITA.TROCAR_QTD, INGREDIENTES.BAUNILHA, 5),
+			scr_alterar_receita(SABORES_BOLO.CHOCOLATE, ALTERACOES_RECEITA.TROCAR_QTD, INGREDIENTES.FARINHASG, 3),
 			],
             texto_pedidos: [
 			"Oh sim, eu vejo um bolo de chocolate com adição de uma laranja...",
 			"Sonhei com um bolo de baunilha em que a quantidade de baunilha seja 5x mais",
-			"Pega a visão. Triplo de farinha vegetal no meu bolo de laranja, que tal?"
+			"Pega a visão. Triplo de farinha sem glúten no meu bolo de laranja, que tal?"
 			],
             respostas_positivas: ["Vejo um futuro brilhante para você.", "Que comida vislumbrante!"],
             respostas_negativas: ["Desgosto desse conjunto de ingredientes.", "Eu não lembro de ter pedido isso."],
