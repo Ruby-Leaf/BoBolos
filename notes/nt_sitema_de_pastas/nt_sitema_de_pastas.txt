@@ -6,4 +6,4 @@ Esse projeto possui algumas regras de pastas que precisam ser atentadas
 * Scripts => Devem ser separados entre Services e Globais
   * Services => Todos os arquivos de funções e que realizem alguma ação
   * Globais => Todas as variaveis globais do projeto, Enums e Structs
-* Sprites =>
+* Sprites =>  São separados por  cena e categorias para deixar o projeto visualmente mais eficiente
