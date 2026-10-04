@@ -2,6 +2,7 @@
 /// @desc armazena todas as possibilidades de clientes
 /// @return {Array<Struct>} 
 function scr_banco_clientes(){
+    
     var _todos_clientes = [
         {
             nome: "Larry",
@@ -105,16 +106,16 @@ function scr_banco_clientes(){
 			frame_bravo: 20,
             requisitos_pedidos: [
 			scr_alterar_receita(SABORES_BOLO.CHOCOLATE, ALTERACOES_RECEITA.ACRESC_INGREDIENTE, "laranja", 1), 
-			scr_alterar_receita(SABORES_BOLO.BAUNILHA, ALTERACOES_RECEITA.SEM_ALTERACAO, "", 1), // PENDENTE
-			scr_alterar_receita(SABORES_BOLO.CHOCOLATE, ALTERACOES_RECEITA.TROCAR_QTD, "leite", 2) // PENDENTE
+			scr_alterar_receita(SABORES_BOLO.BAUNILHA, ALTERACOES_RECEITA.TROCAR_QTD, "baunilha", 5),
+			scr_alterar_receita(SABORES_BOLO.CHOCOLATE, ALTERACOES_RECEITA.TROCAR_QTD, "farinha_vegetal", 3),
 			],
             texto_pedidos: [
 			"Oh sim, eu vejo um bolo de chocolate com adição de uma laranja...",
-			"Sonhei com um bolo de baunilha em que a quantidade de baunilha equivale a 1/10 do leite",
+			"Sonhei com um bolo de baunilha em que a quantidade de baunilha seja 5x mais",
 			"Pega a visão. Triplo de farinha vegetal no meu bolo de laranja, que tal?"
 			],
-            respostas_positivas: ["", ""], // PENDENTE
-            respostas_negativas: ["", ""], // PENDENTE
+            respostas_positivas: ["Vejo um futuro brilhante para você.", "Que comida vislumbrante!"],
+            respostas_negativas: ["Desgosto desse conjunto de ingredientes.", "Eu não lembro de ter pedido isso."],
         },
 		{
             
