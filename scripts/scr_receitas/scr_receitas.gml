@@ -25,7 +25,7 @@ function scr_receitas(){
         baunilha: 5, 
     };
 	
-	_todas_receitas[SABORES_BOLO.LARANJASEMGLUTEN] = {
+	_todas_receitas[SABORES_BOLO.LARANJA_SEM_GLUTEN] = {
         ovos: 2,
         farinha_sem_gluten: 300,
         acucar: 150,
@@ -33,7 +33,7 @@ function scr_receitas(){
         laranja: 5, 
     };
 	
-	_todas_receitas[SABORES_BOLO.CHOCOLATESEMGLUTEM] = {
+	_todas_receitas[SABORES_BOLO.CHOCOLATE_SEM_GLUTEN] = {
         ovos: 2,
         farinha_sem_gluten: 300,
         acucar: 150,
@@ -41,7 +41,7 @@ function scr_receitas(){
         chocolate: 5, 
     };
 	
-	_todas_receitas[SABORES_BOLO.BAUNILHASEMGLUTEN] = {
+	_todas_receitas[SABORES_BOLO.BAUNILHA_SEM_GLUTEN] = {
         ovos: 2,
         farinha_sem_gluten: 300,
         acucar: 150,
@@ -49,7 +49,7 @@ function scr_receitas(){
         baunilha: 5, 
     };
 	
-	_todas_receitas[SABORES_BOLO.LARANJAVEGETAL] = {
+	_todas_receitas[SABORES_BOLO.LARANJA_VEGETAL] = {
         ovos: 2,
         farinha: 300,
         acucar: 150,
@@ -57,19 +57,19 @@ function scr_receitas(){
         laranja: 5, 
     };
 	
-	_todas_receitas[SABORES_BOLO.CHOCOLATEVEGETAL] = {
+	_todas_receitas[SABORES_BOLO.CHOCOLATE_VEGETAL] = {
         ovos: 2,
         farinha: 300,
         acucar: 150,
-        leiteleite_vegetal: 250,
+        leite_vegetal: 250,
         chocolate: 5, 
     };
 	
-	_todas_receitas[SABORES_BOLO.BAUNILHAVEGETAL] = {
+	_todas_receitas[SABORES_BOLO.BAUNILHA_VEGETAL] = {
         ovos: 2,
         farinha: 300,
         acucar: 150,
-        leiteleite_vegetal: 250,
+        leite_vegetal: 250,
         baunilha: 5, 
     };
     

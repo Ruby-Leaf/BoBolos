@@ -5,7 +5,7 @@
   "managed":true,
   "name":"obj_leite_vg",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_recipientes","path":"objects/obj_recipientes/obj_recipientes.yy",},"propertyId":{"name":"conteudo","path":"objects/obj_recipientes/obj_recipientes.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"INGREDIENTES.LEITEVG",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_recipientes","path":"objects/obj_recipientes/obj_recipientes.yy",},"propertyId":{"name":"conteudo","path":"objects/obj_recipientes/obj_recipientes.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"INGREDIENTES.LEITE_VEGETAL",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_recipientes","path":"objects/obj_recipientes/obj_recipientes.yy",},"propertyId":{"name":"conteudo_name","path":"objects/obj_recipientes/obj_recipientes.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Leite Vegetal",},
   ],
   "parent":{
