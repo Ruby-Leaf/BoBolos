@@ -2,7 +2,7 @@
 // compara a receita no bowl com o banco de dados
 // ==============================  
 
-for(var i = 0;i <= array_length(receitas);i++){
+for(var i = 0;i < array_length(receitas);i++){
 	if (
 	receita_em_producao.baunilha == receitas[i].baunilha and
 	receita_em_producao.chocolate == receitas[i].chocolate and
