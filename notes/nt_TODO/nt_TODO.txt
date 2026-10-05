@@ -17,8 +17,6 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 
 * [ ] FEAT: criar um segundo ambiente para o forno
 
-* [ ] FEAT: criar quando os itens vão para a mão
-
 * [ ] FEAT: criar a função de adicionar itens à receita
   * = scr_alterar_receita line 30
 
@@ -59,3 +57,5 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 
 * [X] FEAT: criar a função de trocar valores da receita
   * = scr_alterar_receita
+  
+  * [X] FEAT: criar quando os itens vão para a mão
