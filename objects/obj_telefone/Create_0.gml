@@ -1,5 +1,3 @@
-gscr_telefone(); // INFO: SET GLOBAL
-
 layer_alerta = "callAlert";
 
 // ============================== 

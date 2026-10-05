@@ -16,6 +16,7 @@ function gscr_cozinha(){
         BAUNILHA_VEGETAL,
         CHOCOLATE_VEGETAL,
     }
+    
 	enum INGREDIENTES {
 		NONE,
 		FARINHA,
@@ -27,6 +28,17 @@ function gscr_cozinha(){
 		FARINHA_SEM_GLUTEN,
 		LEITE_VEGETAL,
 	}
+    
+    // Nomes dos ingredientes
+    global.nome_ingredientes = [];
+    global.nome_ingredientes[INGREDIENTES.BAUNILHA] = "baunilha";
+    global.nome_ingredientes[INGREDIENTES.CHOCOLATE] = "chocolate";
+    global.nome_ingredientes[INGREDIENTES.FARINHA] = "farinha";
+    global.nome_ingredientes[INGREDIENTES.FARINHA_SEM_GLUTEN] = "farinha_sem_gluten";
+    global.nome_ingredientes[INGREDIENTES.LEITE_VEGETAL] = "leite_vegetal";
+    global.nome_ingredientes[INGREDIENTES.LARANJA] = "laranja";
+    global.nome_ingredientes[INGREDIENTES.LEITE] = "leite";
+    global.nome_ingredientes[INGREDIENTES.OVO] = "ovos";
 	
 	// ---------- Alterados pelo obj_recipiente
 	global.selecionando_ingrediente = false;
