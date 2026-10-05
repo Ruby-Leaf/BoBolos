@@ -41,8 +41,12 @@ function gscr_cozinha(){
     global.nome_ingredientes[INGREDIENTES.OVO] = "ovos";
 	
 	// ---------- Alterados pelo obj_recipiente
+    enum TIPO_RECIPIENTE {
+        PORCAO,
+        UNIDADE,
+    }
 	global.selecionando_ingrediente = false;
 	global.conteudo_selecionado = "";
-	global.tipo_selecionado = "";
+	global.tipo_selecionado = TIPO_RECIPIENTE.PORCAO;
 	global.endereco_escolhido = INGREDIENTES.NONE;
 }
