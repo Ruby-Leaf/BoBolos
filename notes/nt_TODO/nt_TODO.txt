@@ -63,3 +63,7 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 * [X] FEAT: bowl armazena e recebe os itens
 
 * [X] FIX: correção do endereço dos ingredientes
+
+* [X] FEAT: bowl compara a receita atual com todas as possiveis
+
+* [X] FIX: correção na comparação, a partir do 7° ingrediente sem bater com a receita ele permite assar o bolo
