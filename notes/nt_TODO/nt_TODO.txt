@@ -58,4 +58,8 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 * [X] FEAT: criar a função de trocar valores da receita
   * = scr_alterar_receita
   
-  * [X] FEAT: criar quando os itens vão para a mão
+* [X] FEAT: criar quando os itens vão para a mão
+
+* [X] FEAT: bowl armazena e recebe os itens
+
+* [X] FIX: correção do endereço dos ingredientes

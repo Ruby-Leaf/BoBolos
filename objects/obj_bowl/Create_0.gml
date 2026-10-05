@@ -2,6 +2,8 @@
 // Receita para comparação
 // ==============================  
 
+receitas = scr_receitas() // declara as receitas possiveis
+
 receita_em_producao = {
 	farinha: 0,
 	farinhaSg: 0,
