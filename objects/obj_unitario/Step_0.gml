@@ -63,7 +63,7 @@ if global.tipo_selecionado == "unitario" {
 			
 				// ---------- Passando os ingredientes para a mão ao fim do processo
 			
-				global.segurando.ingrediente = conteudo;
+				global.segurando.ingrediente = global.endereco_escolhido;
 				global.segurando.quantidade = qnt_selecionada;
 			
 				global.selecionando_ingrediente = false;

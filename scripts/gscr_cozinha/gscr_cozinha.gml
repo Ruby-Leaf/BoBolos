@@ -32,4 +32,5 @@ function gscr_cozinha(){
 	global.selecionando_ingrediente = false;
 	global.conteudo_selecionado = "";
 	global.tipo_selecionado = "";
+	global.endereco_escolhido = INGREDIENTES.NONE;
 }
