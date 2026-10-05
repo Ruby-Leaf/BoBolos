@@ -14,8 +14,6 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 
 * [ ] FEAT: configurar o segundo espaço da cozinha
 
-* [ ] FEAT: exibir pedido na lateral esquerda
-
 * [ ] FEAT: exibir lista de receitas na lateral direita
 
 * [ ] FEAT: ativar som de toque
@@ -75,4 +73,6 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 
 * [X] REFACTOR: aplicação de conceito DRY e removendo obj_porcao e obj_unitario
 
-* [X] FEAT: adiciona tutorial rápido ao player 
+* [X] FEAT: adiciona tutorial rápido ao player
+
+* [X] FEAT: exibir pedido na lateral esquerda

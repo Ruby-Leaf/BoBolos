@@ -10,8 +10,8 @@
   "name":"obj_bowl",
   "overriddenProperties":[],
   "parent":{
-    "name":"mobilha",
-    "path":"folders/Objetos/Cozinha/mobilha.yy",
+    "name":"mobilia",
+    "path":"folders/Objetos/Cozinha/mobilia.yy",
   },
   "parentObjectId":null,
   "persistent":false,

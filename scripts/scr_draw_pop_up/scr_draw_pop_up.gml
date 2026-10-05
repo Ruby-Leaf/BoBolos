@@ -10,71 +10,86 @@ function scr_draw_pop_up(textos_arr, opcoes){
 	
 	var _estetica = {
 		cor_fundo: c_ltgray,
-	    texto_cores: [_cor_default_texto], 
-	    fontes: [_fonte_default],
-	    largura: room_width / 2,
-	    altura: room_height / 2,
-	    espaco_linhas: 30,
-	    deslocamento_x: 0,
-	    deslocamento_y: 0,
+		texto_cores: [_cor_default_texto], 
+		fontes: [_fonte_default],
+		largura: room_width / 2,
+		altura: room_height / 2,
+		espaco_linhas: 30,
+		deslocamento_x: 0,
+		deslocamento_y: 0,
 	}
 		
-	// Nome de todas personalizações desejadas
 	var _propriedades = variable_struct_get_names(opcoes);
-    
-	// Itera sobre as propriedades fornecidas
 	for (var i = 0; i < array_length(_propriedades); i++) {
-	    var _nome = _propriedades[i];
-	    var _valor = variable_struct_get(opcoes, _nome);
-	    variable_struct_set(_estetica, _nome, _valor);
+		var _nome = _propriedades[i];
+		var _valor = variable_struct_get(opcoes, _nome);
+		variable_struct_set(_estetica, _nome, _valor);
 	}
 	
 	valida_estetica_popup(_estetica);
 	verifica_dados_struct(_estetica, textos_arr);
 	
-	// tamanho pop-up
+	// Tamanho e Posição do Pop-up
 	var pop_up_width = _estetica.largura;
 	var pop_up_height = _estetica.altura;
 	var pop_up_x = room_width / 2 - pop_up_width / 2 + _estetica.deslocamento_x;
 	var pop_up_y = room_height / 2 - pop_up_height / 2 + _estetica.deslocamento_y;
 	
-    // cria pop-up
+	// Desenha Fundo
 	draw_set_color(_estetica.cor_fundo);
 	draw_rectangle(pop_up_x, pop_up_y, pop_up_x + pop_up_width, pop_up_y + pop_up_height, false);
 		
-	// cálculo da altura do texto
+	// ----------------------------------------------------
+	// Cálculo da altura total do bloco
+	// ----------------------------------------------------
 	var altura_total_texto = 0;
-	for (var i = 0; i < array_length(textos_arr); i++) {
-		altura_total_texto += string_height_ext(textos_arr[i], _estetica.espaco_linhas, pop_up_width);
-	
-		if (i < array_length(textos_arr) - 1) {
-			altura_total_texto += _estetica.espaco_linhas; // Adiciona um espaçamento extra entre as linhas, exceto para a última
+	var _qtd_linhas = array_length(textos_arr);
+
+	for (var i = 0; i < _qtd_linhas; i++) {
+		// Define a fonte correspondente para medir a altura exata desta linha
+		if (i < array_length(_estetica.fontes)) {
+			draw_set_font(_estetica.fontes[i]);
+		} else {
+			draw_set_font(_fonte_default);
 		}
 
-		// escrita do texto
-		var y_texto = pop_up_y + (pop_up_height / 2) - (altura_total_texto / 2);
-		var x_texto = pop_up_x + (pop_up_width / 2);
-		
-		for (var i = 0; i < array_length(textos_arr); i++) {
-			// caracteristicas do texto
-			if (i < array_length(_estetica.texto_cores)) {
-				draw_set_color(_estetica.texto_cores[i]);
-			} else {
-				draw_set_color(_cor_default_texto);
-			}
+		altura_total_texto += string_height_ext(textos_arr[i], _estetica.espaco_linhas, pop_up_width);
 	
-			if (i < array_length(_estetica.fontes)) {
-				draw_set_font(_estetica.fontes[i]);
-			} else {
-				draw_set_font(_fonte_default)
-			}
-			
-			draw_set_halign(fa_center);
-			
-			//escrita
-			draw_text_ext(x_texto, y_texto, textos_arr[i], _estetica.espaco_linhas, pop_up_width);
-			y_texto += string_height_ext(textos_arr[i], _estetica.espaco_linhas, pop_up_width) + _estetica.espaco_linhas;
+		if (i < _qtd_linhas - 1) {
+			altura_total_texto += _estetica.espaco_linhas; // Espaçamento entre linhas
 		}
+	}
+
+	// ----------------------------------------------------
+	// PASSO 2: Escrita do texto
+	// ----------------------------------------------------
+	// Define alinhamentos padrão
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_top); // Garante que a origem do Y seja o topo da linha
+
+	var x_texto = pop_up_x + (pop_up_width / 2);
+	var y_texto = pop_up_y + (pop_up_height / 2) - (altura_total_texto / 2);
+
+	for (var i = 0; i < _qtd_linhas; i++) {
+		// Define Cor
+		if (i < array_length(_estetica.texto_cores)) {
+			draw_set_color(_estetica.texto_cores[i]);
+		} else {
+			draw_set_color(_cor_default_texto);
+		}
+
+		// Define Fonte
+		if (i < array_length(_estetica.fontes)) {
+			draw_set_font(_estetica.fontes[i]);
+		} else {
+			draw_set_font(_fonte_default);
+		}
+		
+		// Desenha o texto
+		draw_text_ext(x_texto, y_texto, textos_arr[i], _estetica.espaco_linhas, pop_up_width);
+		
+		// Avança a posição Y para a próxima linha
+		y_texto += string_height_ext(textos_arr[i], _estetica.espaco_linhas, pop_up_width) + _estetica.espaco_linhas;
 	}
 	
 	scr_reset_draw();

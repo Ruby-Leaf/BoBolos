@@ -6,7 +6,7 @@ var _estetica = {
     fontes: [fnt_h2, fnt_p],
     largura: room_width / 2 * 1.3,
     altura: min(300, room_height / 2),
-    deslocamento_y: -150, 
+    deslocamento_y: -150,
 }
 var _texto_pop_up = [];
 
