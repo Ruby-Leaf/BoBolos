@@ -22,7 +22,7 @@ if (global.estado_telefone == ESTADOS_TELEFONE.ATENDENDO) {
 
 if (global.estado_telefone == ESTADOS_TELEFONE.TUTORIAL) {
     _texto_pop_up = [
-        "Tutotial",
+        "Tutorial",
         "Bem vindo à BoBolos! Em breve você receberá seu primeiro cliente. Siga as receitas conforme o livro e se atente às pequenas mudanças do cliente. Boa sorte!",
         "(Clique no telefone para desligar)"
     ]
