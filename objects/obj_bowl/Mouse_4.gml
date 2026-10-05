@@ -5,34 +5,58 @@
 switch global.segurando.ingrediente{
 	case INGREDIENTES.FARINHA:
 	receita_em_producao.farinha = global.segurando.quantidade;
+	
+	// ---------- controla o limite de ingredientes
+	qnt_atual++
 	break
 	
 	case INGREDIENTES.FARINHA_SEM_GLUTEN:
 	receita_em_producao.farinhaSg = global.segurando.quantidade;
+	
+	// ---------- controla o limite de ingredientes
+	qnt_atual++
 	break
 	
 	case INGREDIENTES.LEITE:
 	receita_em_producao.leite = global.segurando.quantidade;
+	
+	// ---------- controla o limite de ingredientes
+	qnt_atual++
 	break
 	
 	case INGREDIENTES.LEITE_VEGETAL:
 	receita_em_producao.leiteVg = global.segurando.quantidade;
+	
+	// ---------- controla o limite de ingredientes
+	qnt_atual++
 	break
 	
 	case INGREDIENTES.OVO:
 	receita_em_producao.ovo = global.segurando.quantidade;
+	
+	// ---------- controla o limite de ingredientes
+	qnt_atual++
 	break
 	
 	case INGREDIENTES.CHOCOLATE:
 	receita_em_producao.chocolate = global.segurando.quantidade;
+	
+	// ---------- controla o limite de ingredientes
+	qnt_atual++
 	break
 	
 	case INGREDIENTES.BAUNILHA:
 	receita_em_producao.baunilha = global.segurando.quantidade;
+	
+	// ---------- controla o limite de ingredientes
+	qnt_atual++
 	break
 	
 	case INGREDIENTES.LARANJA:
 	receita_em_producao.laranja = global.segurando.quantidade;
+	
+	// ---------- controla o limite de ingredientes
+	qnt_atual++
 	break
 	
 	case INGREDIENTES.NONE:

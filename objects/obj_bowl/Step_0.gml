@@ -12,7 +12,7 @@ for(var i = 0;i < array_length(receitas);i++){
 	receita_em_producao.leite == receitas[i].leite and
 	receita_em_producao.leiteVg == receitas[i].leite_vegetal and
 	receita_em_producao.ovo == receitas[i].ovos
-	){
+	) or (qnt_atual == maximo_de_ingredientes){
 		show_message("chegou aqui");
 	}
 }

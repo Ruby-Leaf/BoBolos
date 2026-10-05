@@ -14,3 +14,6 @@ receita_em_producao = {
 	baunilha: 0,
 	laranja: 0,
 };
+
+maximo_de_ingredientes = 7;
+qnt_atual = 0;
