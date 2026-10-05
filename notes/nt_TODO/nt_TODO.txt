@@ -14,7 +14,9 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 
 * [ ] FEAT: configurar o segundo espaço da cozinha
 
-* [ ] FEAT: exibir lista de receitas na lateral direita
+* [ ] DOCS: documentar o código dos objetos pedido e livro de receitas
+
+* [ ] REFACTOR: se livrar do código vibe coded em livro receitas
 
 * [ ] FEAT: ativar som de toque
   * = obj_telefone / criar line 10
@@ -76,3 +78,5 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 * [X] FEAT: adiciona tutorial rápido ao player
 
 * [X] FEAT: exibir pedido na lateral esquerda
+
+* [X] FEAT: exibir lista de receitas na lateral direita

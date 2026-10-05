@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pedido",
+  "%Name":"obj_livro_receitas",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -9,7 +9,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pedido",
+  "name":"obj_livro_receitas",
   "overriddenProperties":[],
   "parent":{
     "name":"btns",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_pedido_resumo",
-    "path":"sprites/spr_pedido_resumo/spr_pedido_resumo.yy",
+    "name":"spr_livro_receitas",
+    "path":"sprites/spr_livro_receitas/spr_livro_receitas.yy",
   },
   "spriteMaskId":null,
   "visible":true,

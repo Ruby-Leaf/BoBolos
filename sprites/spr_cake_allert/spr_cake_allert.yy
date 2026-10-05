@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Cozinha",
-    "path":"folders/Sprites/Cozinha.yy",
+    "name":"Btns",
+    "path":"folders/Sprites/Cozinha/Btns.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
