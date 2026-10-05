@@ -16,8 +16,6 @@ for(var i = 0;i < array_length(receitas);i++){
 	or 
 	(qnt_atual == maximo_de_ingredientes)
 	{
-		if object_exists(obj_troca_cena){
-			obj_troca_cena.visible = true;
-		}
+		instance_activate_object(obj_troca_cena);
 	}
 }
