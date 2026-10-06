@@ -11,9 +11,9 @@ if (global.selecionando_ingrediente) {
 	var _limite_min = 1;
 	
 	if (global.tipo_selecionado == TIPO_RECIPIENTE.PORCAO) {
-		_passo = 100;
+		_passo = 50;
 		_limite_max = 1000;
-		_limite_min = 100; // Garante que não fique negativo ao subtrair 100
+		_limite_min = 50; // Garante que não fique negativo ao subtrair 100
 	}
 	
 	// ---------- Escolhendo a quantidade no pop-up

@@ -90,4 +90,10 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 
 * [X] FEAT: configurar o segundo espaço da cozinha
 
-* [X] REFACTOR:cria contorno no sprite mouse fechado
+* [X] REFACTOR: cria contorno no sprite mouse fechado
+
+* [X] FEAT: adiciona transição entre dias de jogo
+
+* [X] FEAT: limita personagens com base em dias de jogo
+
+* [X] REFACTOR: varia os ingredientes das receitas
