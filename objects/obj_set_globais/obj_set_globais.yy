@@ -8,8 +8,8 @@
   "name":"obj_set_globais",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controlers",
-    "path":"folders/Objetos/Menu/Controlers.yy",
+    "name":"Controladores",
+    "path":"folders/Objetos/Controladores.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,8 +1,8 @@
 // ============================== 
 /// @desc escolhe o cliente que está ligando
 function scr_sorteia_cliente(){
-    randomize();
-    var _indice_cliente = irandom(array_length(global.banco_clientes) - 1);
+    var _clientes_liberados = min(global.pedidos_atendidos + 2, array_length(global.banco_clientes) - 1); // começa com 3 clientes
+    var _indice_cliente = irandom(_clientes_liberados);
     
     global.cliente_atual = global.banco_clientes[_indice_cliente];
     
