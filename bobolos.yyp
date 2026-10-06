@@ -131,6 +131,7 @@
     {"id":{"name":"spr_loading","path":"sprites/spr_loading/spr_loading.yy",},},
     {"id":{"name":"spr_meio","path":"sprites/spr_meio/spr_meio.yy",},},
     {"id":{"name":"spr_mesa","path":"sprites/spr_mesa/spr_mesa.yy",},},
+    {"id":{"name":"spr_mouse_hold","path":"sprites/spr_mouse_hold/spr_mouse_hold.yy",},},
     {"id":{"name":"spr_mouse","path":"sprites/spr_mouse/spr_mouse.yy",},},
     {"id":{"name":"spr_pedido_resumo","path":"sprites/spr_pedido_resumo/spr_pedido_resumo.yy",},},
     {"id":{"name":"spr_telefone","path":"sprites/spr_telefone/spr_telefone.yy",},},
