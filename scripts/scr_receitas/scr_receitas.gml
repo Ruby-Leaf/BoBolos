@@ -2,12 +2,12 @@ function scr_receitas(){
     var _todas_receitas = [];
         
     _todas_receitas[SABORES_BOLO.LARANJA] = {
-        ovos: 2,
-        farinha: 300,
+        ovos: 5,
+        farinha: 400,
 		farinha_sem_gluten: 0,
-        leite: 200,
+        leite: 250,
 		leite_vegetal: 0,
-        laranja: 5, 
+        laranja: 4, 
 		chocolate: 0, 
 		baunilha: 0, 
     };
@@ -24,14 +24,14 @@ function scr_receitas(){
     };
 	
 	_todas_receitas[SABORES_BOLO.BAUNILHA] = {
-        ovos: 2,
-        farinha: 300,
+        ovos: 3,
+        farinha: 500,
 		farinha_sem_gluten: 0,
-        leite: 200,
+        leite: 350,
 		leite_vegetal: 0,
         laranja: 0, 
 		chocolate: 0, 
-		baunilha: 5, 
+		baunilha: 2, 
     };
 	
 	_todas_receitas[SABORES_BOLO.LARANJA_SEM_GLUTEN] = {
