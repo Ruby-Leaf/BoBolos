@@ -14,10 +14,6 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 
 * [ ] FEAT: configurar o segundo espaço da cozinha
 
-* [ ] DOCS: documentar o código dos objetos pedido e livro de receitas
-
-* [ ] REFACTOR: se livrar do código vibe coded em livro receitas
-
 * [ ] FEAT: ativar som de toque
   * = obj_telefone / criar line 10
 
@@ -84,3 +80,7 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 * [X] FEAT: bowl exibe um sinal visual quando recebe um ingrediente
 
 * [X] FEAT: o jogo possui um mouse próprio
+
+* [X] DOCS: documentar o código dos objetos pedido e livro de receitas
+
+* [X] REFACTOR: se livrar do código vibe coded em livro receitas

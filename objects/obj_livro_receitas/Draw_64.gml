@@ -20,8 +20,8 @@ if (pedido_aberto) {
     ];
 	
 	// ---------- Presets para o pop-up que será exibido
-    var _nome_sabores = ["baunilha", "chocolate", "laranja"];
     
+    var _nome_sabores = ["baunilha", "chocolate", "laranja"];
     var _largura = 300;
     var _deslocamento_x = [-_largura, 0 , _largura];
 	
@@ -38,7 +38,7 @@ if (pedido_aberto) {
         }
         
     	var _texto_pop_up = [
-            "Bolo de " + _nome_sabores[i],
+			_nome_sabores[i],
             "Ovos: " + string(_receitas_principais[i].ovos),
             "Farinha: " + string(_receitas_principais[i].farinha),
             "Leite: " + string(_receitas_principais[i].leite),
