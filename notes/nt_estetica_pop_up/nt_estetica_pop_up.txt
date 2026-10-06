@@ -1,0 +1,17 @@
+# Padronização de estilos de pop up
+
+Toda vez que for criar um pop up no draw, utilize o scr_draw_pop_up, que já trata erros e aceita personalização de estilos.
+
+Para criar um pop up, primeiro precisamos criar a variável estética, onde guardamos as informações de onde ficará este pop up, seu tamanho e conteúdo.
+```
+var _estetica = {
+    cor_fundo: c_ltgray,
+	texto_cores: [_cor_default_texto],
+	fontes: [_fonte_default],
+	largura: room_width / 2,
+	altura: room_height / 2,
+	espaco_linhas: 30,
+	deslocamento_x: 0,
+	deslocamento_y: 0, 
+}
+```

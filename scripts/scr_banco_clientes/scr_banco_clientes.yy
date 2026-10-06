@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_banco_clientes",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_banco_clientes",
+  "parent":{
+    "name":"Services",
+    "path":"folders/Scripts/Services.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"gscr_telefone",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gscr_telefone",
+  "parent":{
+    "name":"Globais",
+    "path":"folders/Scripts/Globais.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

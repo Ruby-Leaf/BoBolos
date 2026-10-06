@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_reset_draw",
   "parent":{
-    "name":"Globais",
-    "path":"folders/Scripts/Globais.yy",
+    "name":"Services",
+    "path":"folders/Scripts/Services.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

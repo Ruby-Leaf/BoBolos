@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_receitas",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_receitas",
+  "parent":{
+    "name":"Services",
+    "path":"folders/Scripts/Services.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

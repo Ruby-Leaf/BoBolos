@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"gscr_cozinha",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gscr_cozinha",
+  "parent":{
+    "name":"Globais",
+    "path":"folders/Scripts/Globais.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

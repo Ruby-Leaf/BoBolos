@@ -44,8 +44,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Clientes",
-    "path":"folders/Sprites/Clientes.yy",
+    "name":"Salão",
+    "path":"folders/Sprites/Salão.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
