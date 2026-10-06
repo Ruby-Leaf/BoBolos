@@ -12,4 +12,6 @@ function gscr_telefone(){
     global.struct_pedido_atual = {}; // alterado na função sorteia_cliente
     global.texto_pedido_atual = ""; // alterado na função sorteia_cliente
     global.banco_clientes = scr_banco_clientes();
+    global.pedidos_atendidos = 0;
+    global.clientes_por_dia = 3;
 }
