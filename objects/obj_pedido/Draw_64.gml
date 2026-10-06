@@ -1,4 +1,9 @@
+// ------------------------------  
+// ao abrir o pop-up
+// ------------------------------
+
 if (pedido_aberto) {
+	// ---------- aparencia do pop-up
     var _estetica = {
         cor_fundo: make_colour_rgb(255, 245, 240),
         fontes: [fnt_h2, fnt_p],
@@ -12,5 +17,6 @@ if (pedido_aberto) {
         "(clique no papel do pedido para fechar)"
     ]
     
+	// ---------- desenha o pop-up
     scr_draw_pop_up(_texto_pop_up, _estetica);
 }

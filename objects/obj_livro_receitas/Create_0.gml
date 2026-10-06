@@ -1,4 +1,4 @@
-pedido_aberto = false; // verifica se está aberto o pop-up
+pedido_aberto = false; // diz que começa fechado
 
 // ---------- define as proporções do pop-up
 botao_exit_h = min(50, room_height / 2);
