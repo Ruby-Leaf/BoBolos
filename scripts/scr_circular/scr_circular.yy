@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_circular",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_circular",
+  "parent":{
+    "name":"api",
+    "path":"folders/Scripts/api.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
