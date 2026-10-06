@@ -15,6 +15,8 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 
 * [ ] FEAT: ativar som de toque
   * = obj_telefone / criar line 10
+  
+* [ ] REFACTOR: animação do bowl enchendo
 
 ## DONE
 
