@@ -91,3 +91,4 @@ switch global.segurando.ingrediente{
 // ---------- limpa a mão
 	global.segurando.ingrediente = INGREDIENTES.NONE;
 	global.segurando.quantidade = 0;
+	image_index = qnt_atual;
