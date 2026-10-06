@@ -80,3 +80,7 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 * [X] FEAT: exibir pedido na lateral esquerda
 
 * [X] FEAT: exibir lista de receitas na lateral direita
+
+* [X] FEAT: bowl exibe um sinal visual quando recebe um ingrediente
+
+* [X] FEAT: o jogo possui um mouse próprio
