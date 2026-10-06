@@ -27,6 +27,7 @@ function gscr_cozinha(){
 		BAUNILHA,
 		FARINHA_SEM_GLUTEN,
 		LEITE_VEGETAL,
+		BOWL,
 	}
     
     // Nomes dos ingredientes

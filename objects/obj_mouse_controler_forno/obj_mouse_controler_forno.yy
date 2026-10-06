@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mouse_cozinha",
+  "%Name":"obj_mouse_controler_forno",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_mouse_cozinha",
+  "name":"obj_mouse_controler_forno",
   "overriddenProperties":[],
   "parent":{
     "name":"controles",

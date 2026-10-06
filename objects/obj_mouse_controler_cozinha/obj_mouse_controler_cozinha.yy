@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mouse_sprite",
-  "eventList":[],
+  "%Name":"obj_mouse_controler_cozinha",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_mouse_sprite",
+  "name":"obj_mouse_controler_cozinha",
   "overriddenProperties":[],
   "parent":{
     "name":"controles",
@@ -27,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_ingredientes",
-    "path":"sprites/spr_ingredientes/spr_ingredientes.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
