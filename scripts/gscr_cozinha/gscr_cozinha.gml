@@ -15,6 +15,7 @@ function gscr_cozinha(){
 		LARANJA_VEGETAL,
         BAUNILHA_VEGETAL,
         CHOCOLATE_VEGETAL,
+		ALTURA, // para laços de repetição
     }
     
 	enum INGREDIENTES {

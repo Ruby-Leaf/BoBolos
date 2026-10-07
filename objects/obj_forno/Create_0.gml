@@ -1,4 +1,6 @@
-receita_assando = {};
+receita_feita = 0;
+sabor_realizado = 0;
+
 
 assando = false;
 alarm_pass = false;
