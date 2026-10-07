@@ -9,16 +9,7 @@ if assando {
 	
 	for(var i = 0; i < SABORES_BOLO.ALTURA+1; i++){
 		if i != SABORES_BOLO.ALTURA{
-			if(
-			global.receita_em_producao.baunilha == _receitas[i].baunilha and
-			global.receita_em_producao.chocolate == _receitas[i].chocolate and
-			global.receita_em_producao.farinha == _receitas[i].farinha and
-			global.receita_em_producao.farinhaSg == _receitas[i].farinha_sem_gluten and
-			global.receita_em_producao.laranja == _receitas[i].laranja and
-			global.receita_em_producao.leite == _receitas[i].leite and
-			global.receita_em_producao.leiteVg == _receitas[i].leite_vegetal and
-			global.receita_em_producao.ovo == _receitas[i].ovos
-			){
+			if(scr_compara_receitas(global.receita_em_producao,_receitas[i])){
 				receita_feita = i;
 				
 			}

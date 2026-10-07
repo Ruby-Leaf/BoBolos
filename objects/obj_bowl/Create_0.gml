@@ -5,14 +5,14 @@
 receitas = scr_receitas() // declara as receitas possiveis
 
 global.receita_em_producao = {
-	farinha: 0,
-	farinhaSg: 0,
-	ovo: 0,
-	leite: 0,
-	leiteVg : 0,
-	chocolate:0,
-	baunilha: 0,
-	laranja: 0,
+	ovos: 0,
+    farinha: 0,
+	farinha_sem_gluten: 0,
+    leite: 0,
+	leite_vegetal: 0,
+    laranja: 0, 
+	chocolate: 0, 
+	baunilha: 0, 
 };
 
 // ---------- controla o limite de ingredientes
