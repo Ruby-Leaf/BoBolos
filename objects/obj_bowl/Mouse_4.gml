@@ -2,6 +2,8 @@
 // passa o ingrediente da mão para o recepiente
 // ==============================
 
+if object_exists(obj_controle_sons) obj_controle_sons.play_som_clique();
+
 switch global.segurando.ingrediente{
 	case INGREDIENTES.FARINHA:
 	global.receita_em_producao.farinha += global.segurando.quantidade;
