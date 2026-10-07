@@ -20,19 +20,12 @@ if assando {
 			global.receita_em_producao.ovo == _receitas[i].ovos
 			){
 				receita_feita = i;
+				
 			}
 		}else{
-			if(
-			global.receita_em_producao.baunilha == global.struct_pedido_atual.baunilha and
-			global.receita_em_producao.chocolate == global.struct_pedido_atual.chocolate and
-			global.receita_em_producao.farinha == global.struct_pedido_atual.farinha and
-			global.receita_em_producao.farinhaSg == global.struct_pedido_atual.farinha_sem_gluten and
-			global.receita_em_producao.laranja == global.struct_pedido_atual.laranja and
-			global.receita_em_producao.leite == global.struct_pedido_atual.leite and
-			global.receita_em_producao.leiteVg == global.struct_pedido_atual.leite_vegetal and
-			global.receita_em_producao.ovo == global.struct_pedido_atual.ovos
-			){
+			if(scr_compara_receitas(global.receita_em_producao,global.struct_pedido_atual)){
 				receita_feita = i;
+				
 				
 				if global.receita_em_producao.baunilha > 0{
 					sabor_realizado = SABORES_BOLO.BAUNILHA
@@ -43,8 +36,6 @@ if assando {
 				if global.receita_em_producao.laranja > 0 {
 					sabor_realizado = SABORES_BOLO.LARANJA
 				}
-			}else{
-				receita_feita = -1;
 			}
 		}
 	}

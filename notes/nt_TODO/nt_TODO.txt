@@ -13,10 +13,6 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
   
 * [ ] REFACTOR: animação do bowl enchendo
 
-* [ ] FIX: corrigir erro no papel do pedido
-
-* [ ] FIX: corrigir problema no forno quando não atende nenhum requisito
-
 * [ ] FEAT: configurar ação de entrega do bolo e aparição do cliente
   * = scr_entrega_pedido
   
@@ -102,3 +98,7 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 * [X] REFACTOR: varia os ingredientes das receitas
 
 * [X] FEAT: adicionar sons ao jogo
+
+* [X] FIX: corrigir erro no papel do pedido
+
+* [X] FIX: corrigir problema no forno quando não atende nenhum requisito

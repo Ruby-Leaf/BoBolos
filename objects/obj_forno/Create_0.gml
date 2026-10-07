@@ -1,4 +1,4 @@
-receita_feita = 0;
+receita_feita = -1;
 sabor_realizado = 0;
 
 
