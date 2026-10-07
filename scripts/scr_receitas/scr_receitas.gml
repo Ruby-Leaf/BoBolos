@@ -2,7 +2,7 @@ function scr_receitas(){
     var _todas_receitas = [];
         
     _todas_receitas[SABORES_BOLO.LARANJA] = {
-        ovos: 5,
+        ovos: 6,
         farinha: 400,
 		farinha_sem_gluten: 0,
         leite: 250,
@@ -35,7 +35,7 @@ function scr_receitas(){
     };
 	
 	_todas_receitas[SABORES_BOLO.LARANJA_SEM_GLUTEN] = {
-       ovos: 5,
+       ovos: 6,
         farinha: 0,
 		farinha_sem_gluten: 400,
         leite: 250,
@@ -68,7 +68,7 @@ function scr_receitas(){
     };
 	
 	_todas_receitas[SABORES_BOLO.LARANJA_VEGETAL] = {
-        ovos: 5,
+        ovos: 6,
         farinha: 400,
 		farinha_sem_gluten: 0,
         leite: 0,

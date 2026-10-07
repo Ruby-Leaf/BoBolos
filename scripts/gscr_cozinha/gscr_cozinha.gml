@@ -51,4 +51,7 @@ function gscr_cozinha(){
 	global.conteudo_selecionado = "";
 	global.tipo_selecionado = TIPO_RECIPIENTE.PORCAO;
 	global.endereco_escolhido = INGREDIENTES.NONE;
+	
 }
+
+global.receita_concluida = false;

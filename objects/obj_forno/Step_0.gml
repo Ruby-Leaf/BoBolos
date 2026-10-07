@@ -34,11 +34,13 @@ if assando {
 			){
 				receita_feita = i;
 				
-				if global.receita_em_producao.baunilha < 0{
+				if global.receita_em_producao.baunilha > 0{
 					sabor_realizado = SABORES_BOLO.BAUNILHA
-				}else if global.receita_em_producao.chocolate < 0 {
+				}
+				if global.receita_em_producao.chocolate > 0 {
 					sabor_realizado = SABORES_BOLO.CHOCOLATE
-				}else if global.receita_em_producao.laranja < 0 {
+				}
+				if global.receita_em_producao.laranja > 0 {
 					sabor_realizado = SABORES_BOLO.LARANJA
 				}
 			}else{
@@ -82,9 +84,11 @@ if processo_finalizado {
 		
 		if sabor_realizado == SABORES_BOLO.BAUNILHA{
 			obj_cakes.image_index = 2;
-		}else if sabor_realizado == SABORES_BOLO.CHOCOLATE{
+		}
+		if sabor_realizado == SABORES_BOLO.CHOCOLATE{
 			obj_cakes.image_index = 3;
-		}else{
+		}
+		if sabor_realizado == SABORES_BOLO.LARANJA{
 			obj_cakes.image_index = 1;
 		}
 		

@@ -1,14 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_telefone",
+  "%Name":"obj_clientes",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_telefone",
+  "name":"obj_clientes",
   "overriddenProperties":[],
   "parent":{
     "name":"Salao",
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_telefone",
-    "path":"sprites/spr_telefone/spr_telefone.yy",
+    "name":"spr_Clientes",
+    "path":"sprites/spr_Clientes/spr_Clientes.yy",
   },
   "spriteMaskId":null,
   "visible":true,
