@@ -18,6 +18,8 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 
 * [ ] FEAT: configurar ação de entrega do bolo e aparição do cliente
   * = scr_entrega_pedido
+  
+* [] DOCS: documentar o código dos objetos forno, obj_troca_cena e obj_mouse_"todos com esse começo"
 
 ## DONE
 

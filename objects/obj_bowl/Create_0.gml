@@ -16,7 +16,7 @@ global.receita_em_producao = {
 };
 
 // ---------- controla o limite de ingredientes
-maximo_de_ingredientes = 7;
+maximo_de_ingredientes = 3;
 qnt_atual = 0;
 
 ultimo_ingrediente = INGREDIENTES.NONE; // o usuario é burro, então adcionaer parceladamente os ingredientes não aumenta a contagem
