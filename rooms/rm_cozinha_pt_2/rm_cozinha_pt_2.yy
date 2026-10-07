@@ -7,7 +7,6 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_7689D97D","path":"rooms/rm_cozinha_pt_2/rm_cozinha_pt_2.yy",},
-    {"name":"inst_37C4DCE1","path":"rooms/rm_cozinha_pt_2/rm_cozinha_pt_2.yy",},
     {"name":"inst_7FEA3907","path":"rooms/rm_cozinha_pt_2/rm_cozinha_pt_2.yy",},
     {"name":"inst_33FBB054","path":"rooms/rm_cozinha_pt_2/rm_cozinha_pt_2.yy",},
     {"name":"inst_1B6D7D86","path":"rooms/rm_cozinha_pt_2/rm_cozinha_pt_2.yy",},
@@ -15,7 +14,6 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"GUI","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_37C4DCE1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37C4DCE1","objectId":{"name":"obj_controle_de_game","path":"objects/obj_controle_de_game/obj_controle_de_game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_7FEA3907","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7FEA3907","objectId":{"name":"obj_mouse_controler_forno","path":"objects/obj_mouse_controler_forno/obj_mouse_controler_forno.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"GUI","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"cakes","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
