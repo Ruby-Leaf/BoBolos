@@ -1,3 +1,7 @@
+// ==============================
+// GLOBAIS UTILIZADAS NA ROOM SALAO
+// ==============================
+
 function gscr_telefone(){
     enum ESTADOS_TELEFONE {
         TUTORIAL,
