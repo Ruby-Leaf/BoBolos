@@ -1,3 +1,6 @@
+// ==============================
+// DEFINE O FUNCIONAMENTO DO FADE
+// ==============================
 cor_fundo = make_colour_rgb(255, 230, 200);
 alpha = 0;
 velocidade_fade = 0.02;

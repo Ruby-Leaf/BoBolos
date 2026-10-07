@@ -1,6 +1,6 @@
-// ------------------------------  
-// Controla a cena da cozinha e o mouse
-// ------------------------------
+// ==============================
+// USO DO MOUSE NA COZINHA
+// ==============================
 
 // ---------- Set de ingredientes na mão
 global.segurando = {
