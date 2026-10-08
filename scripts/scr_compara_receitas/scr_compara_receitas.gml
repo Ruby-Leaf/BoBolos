@@ -3,7 +3,7 @@ var _chaves = struct_get_names(_receita_a);
     
 
     if (array_length(_chaves) != struct_names_count(_receita_b)) {
-        show_message("não tem mesma quantidade")
+        
 		return false;
     }
     
@@ -13,14 +13,14 @@ var _chaves = struct_get_names(_receita_a);
         
         // Verifica se a chave existe na segunda struct
         if (!struct_exists(_receita_b, _chave)) {
-			show_message("as chaves não batem")
+			
 			
             return false;
         }
         
         // Compara os valores das chaves
         if (_receita_a[$ _chaves] != _receita_b[$ _chaves]) {
-			show_message("receitas diferentes")
+			
             return false;
         }
     }
