@@ -5,5 +5,8 @@ layer_alerta = "callAlert";
 function tocar_telefone() {
     global.estado_telefone = ESTADOS_TELEFONE.TOCANDO;
     layer_set_visible(layer_alerta, true);
-    // TODO: ativar som de toque
+}
+
+if (global.estado_telefone == ESTADOS_TELEFONE.TOCANDO) {
+	layer_set_visible(layer_alerta, true);
 }

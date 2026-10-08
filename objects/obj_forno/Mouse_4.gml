@@ -1,7 +1,5 @@
 if !assando{
-receita_assando = obj_mouse_controler_forno.receita_final;
-global.segurando.ingrediente = INGREDIENTES.NONE;
-
-assando = true;
-show_message(receita_assando);
+	if object_exists(obj_controle_sons) obj_controle_sons.play_som_fogo();
+    global.segurando.ingrediente = INGREDIENTES.NONE;
+    assando = true;
 }

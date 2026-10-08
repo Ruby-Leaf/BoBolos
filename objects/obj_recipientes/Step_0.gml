@@ -11,9 +11,9 @@ if (global.selecionando_ingrediente) {
 	var _limite_min = 1;
 	
 	if (global.tipo_selecionado == TIPO_RECIPIENTE.PORCAO) {
-		_passo = 100;
+		_passo = 50;
 		_limite_max = 1000;
-		_limite_min = 100; // Garante que não fique negativo ao subtrair 100
+		_limite_min = 50; // Garante que não fique negativo ao subtrair 100
 	}
 	
 	// ---------- Escolhendo a quantidade no pop-up
@@ -26,6 +26,7 @@ if (global.selecionando_ingrediente) {
 	
 	if point_in_rectangle(_px, _py, _x1_l, _y1_l, _x2_l, _y2_l) {
 		if mouse_check_button_pressed(mb_left) {
+            if object_exists(obj_controle_sons) obj_controle_sons.play_som_clique();
 			if qnt_selecionada >= _limite_min {
 				qnt_selecionada -= _passo;
 			}
@@ -40,6 +41,7 @@ if (global.selecionando_ingrediente) {
 	
 	if point_in_rectangle(_px, _py, _x1_r, _y1_r, _x2_r, _y2_r) {
 		if mouse_check_button_pressed(mb_left) {
+            if object_exists(obj_controle_sons) obj_controle_sons.play_som_clique();
 			if qnt_selecionada < _limite_max {
 				qnt_selecionada += _passo;
 			}
@@ -56,6 +58,7 @@ if (global.selecionando_ingrediente) {
 	
 	if point_in_rectangle(_px, _py, _x1_exit, _y1_exit, _x2_exit, _y2_exit) {
 		if (mouse_check_button(mb_left)) {
+            if object_exists(obj_controle_sons) obj_controle_sons.play_som_clique();
 			global.selecionando_ingrediente = false;
 		}
 	}
@@ -68,6 +71,7 @@ if (global.selecionando_ingrediente) {
 	
 	if (point_in_rectangle(_px, _py, _x1_confirm, _y1_confirm, _x2_confirm, _y2_confirm)) {
 		if mouse_check_button(mb_left) {
+            if object_exists(obj_controle_sons) obj_controle_sons.play_som_clique();
 			global.segurando.ingrediente = global.endereco_escolhido;
 			global.segurando.quantidade = qnt_selecionada;
 			global.selecionando_ingrediente = false;

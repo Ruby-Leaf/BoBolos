@@ -1,0 +1,1 @@
+estado = 2; // Inicia o Fade Out

@@ -2,6 +2,8 @@
 // passa o ingrediente da mão para o recepiente
 // ==============================
 
+if object_exists(obj_controle_sons) obj_controle_sons.play_som_clique();
+
 switch global.segurando.ingrediente{
 	case INGREDIENTES.FARINHA:
 	global.receita_em_producao.farinha += global.segurando.quantidade;
@@ -14,7 +16,7 @@ switch global.segurando.ingrediente{
 	break
 	
 	case INGREDIENTES.FARINHA_SEM_GLUTEN:
-	global.receita_em_producao.farinhaSg += global.segurando.quantidade;
+	global.receita_em_producao.farinha_sem_gluten += global.segurando.quantidade;
 	
 	if ultimo_ingrediente != INGREDIENTES.FARINHA_SEM_GLUTEN{
 		// ---------- controla o limite de ingredientes
@@ -34,7 +36,7 @@ switch global.segurando.ingrediente{
 	break
 	
 	case INGREDIENTES.LEITE_VEGETAL:
-	global.receita_em_producao.leiteVg += global.segurando.quantidade;
+	global.receita_em_producao.leite_vegetal += global.segurando.quantidade;
 	
 	if ultimo_ingrediente != INGREDIENTES.LEITE_VEGETAL{
 		// ---------- controla o limite de ingredientes
@@ -44,7 +46,7 @@ switch global.segurando.ingrediente{
 	break
 	
 	case INGREDIENTES.OVO:
-	global.receita_em_producao.ovo += global.segurando.quantidade;
+	global.receita_em_producao.ovos += global.segurando.quantidade;
 	
 	if ultimo_ingrediente != INGREDIENTES.OVO{
 		// ---------- controla o limite de ingredientes
