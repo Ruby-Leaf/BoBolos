@@ -1,10 +1,6 @@
 // ==============================  
-// DEBUG DE ITENS SEGURADOS
+// ITENS SEGURADOS
 // ==============================  
-
- //if mouse_check_button_pressed(mb_right){
-	 //show_message(global.segurando);
- //}
  
  if object_exists(obj_mouse_sprite){
 	obj_mouse_sprite.x = mouse_x;

@@ -1,10 +1,19 @@
+// ==============================
+// GLOBAIS UTILIZADAS NA ROOM COZINHA
+// ==============================
 function gscr_cozinha(){
+    
+    // ------------------------------  
+    // Enums
+    // ------------------------------
+    
     enum ALTERACOES_RECEITA {
         SEM_ALTERACAO,
         TROCAR_QTD,
         ACRESC_INGREDIENTE,
         REMOVER_INGREDIENTE,
     }
+    
     enum SABORES_BOLO {
         LARANJA,
         BAUNILHA,
@@ -31,7 +40,16 @@ function gscr_cozinha(){
 		BOWL,
 	}
     
-    // Nomes dos ingredientes
+    // ---------- Alterados pelo obj_recipiente
+    enum TIPO_RECIPIENTE {
+        PORCAO,
+        UNIDADE,
+    }
+    
+    // ------------------------------  
+    // Nomeação de ingredientes
+    // ------------------------------
+    
     global.nome_ingredientes = [];
     global.nome_ingredientes[INGREDIENTES.BAUNILHA] = "baunilha";
     global.nome_ingredientes[INGREDIENTES.CHOCOLATE] = "chocolate";
@@ -42,16 +60,15 @@ function gscr_cozinha(){
     global.nome_ingredientes[INGREDIENTES.LEITE] = "leite";
     global.nome_ingredientes[INGREDIENTES.OVO] = "ovos";
 	
-	// ---------- Alterados pelo obj_recipiente
-    enum TIPO_RECIPIENTE {
-        PORCAO,
-        UNIDADE,
-    }
+	// ------------------------------  
+    // Globais de seleção de objeto
+    // ------------------------------
+    
 	global.selecionando_ingrediente = false;
 	global.conteudo_selecionado = "";
 	global.tipo_selecionado = TIPO_RECIPIENTE.PORCAO;
 	global.endereco_escolhido = INGREDIENTES.NONE;
-	
+    
+    global.receita_concluida = false;
 }
 
-global.receita_concluida = false;
