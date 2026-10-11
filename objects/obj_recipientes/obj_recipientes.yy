@@ -30,7 +30,8 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"conteudo","filters":[],"listItems":[],"multiselect":false,"name":"conteudo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"INGREDIENTES.NONE","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"conteudo_name","filters":[],"listItems":[],"multiselect":false,"name":"conteudo_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"conteudo_name","filters":[],"listItems":[],"multiselect":false,"name":"conteudo_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Erro do dev","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"conteudo_tipo","filters":[],"listItems":[],"multiselect":false,"name":"conteudo_tipo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"TIPO_RECIPIENTE.PORCAO","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

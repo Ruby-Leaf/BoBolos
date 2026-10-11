@@ -15,7 +15,9 @@ function gscr_cozinha(){
 		LARANJA_VEGETAL,
         BAUNILHA_VEGETAL,
         CHOCOLATE_VEGETAL,
+		ALTURA, // para laços de repetição
     }
+    
 	enum INGREDIENTES {
 		NONE,
 		FARINHA,
@@ -26,10 +28,30 @@ function gscr_cozinha(){
 		BAUNILHA,
 		FARINHA_SEM_GLUTEN,
 		LEITE_VEGETAL,
+		BOWL,
 	}
+    
+    // Nomes dos ingredientes
+    global.nome_ingredientes = [];
+    global.nome_ingredientes[INGREDIENTES.BAUNILHA] = "baunilha";
+    global.nome_ingredientes[INGREDIENTES.CHOCOLATE] = "chocolate";
+    global.nome_ingredientes[INGREDIENTES.FARINHA] = "farinha";
+    global.nome_ingredientes[INGREDIENTES.FARINHA_SEM_GLUTEN] = "farinha_sem_gluten";
+    global.nome_ingredientes[INGREDIENTES.LEITE_VEGETAL] = "leite_vegetal";
+    global.nome_ingredientes[INGREDIENTES.LARANJA] = "laranja";
+    global.nome_ingredientes[INGREDIENTES.LEITE] = "leite";
+    global.nome_ingredientes[INGREDIENTES.OVO] = "ovos";
 	
 	// ---------- Alterados pelo obj_recipiente
+    enum TIPO_RECIPIENTE {
+        PORCAO,
+        UNIDADE,
+    }
 	global.selecionando_ingrediente = false;
 	global.conteudo_selecionado = "";
-	global.tipo_selecionado = "";
+	global.tipo_selecionado = TIPO_RECIPIENTE.PORCAO;
+	global.endereco_escolhido = INGREDIENTES.NONE;
+	
 }
+
+global.receita_concluida = false;

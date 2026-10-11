@@ -5,26 +5,18 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 ## Notas 
 
 **Modelo de adição** de item na lista de tarefas
-* [ ] TIPO: "tarefa"
+* [ ] TIPO: deescrição da tarefa
 * `^` "observação importante"
 * `=` "endereço se existir"
 
-
 ## TODO
+  
+* [ ] REFACTOR: animação do bowl enchendo
 
-* [ ] FEAT: ativar som de toque
-  * = obj_telefone / criar line 10
-
-* [ ] FEAT: criar um segundo ambiente para o forno
-
-* [ ] FEAT: criar quando os itens vão para a mão
-
-* [ ] FEAT: criar a função de adicionar itens à receita
-  * = scr_alterar_receita line 30
-
-* [ ] FEAT: criar a função de remover itens da receita
-  * = scr_alterar_receita line 34
-
+* [ ] FEAT: configurar ação de entrega do bolo e aparição do cliente
+  * = scr_entrega_pedido
+  
+* [ ] DOCS: documentar o código dos objetos forno, obj_troca_cena e obj_mouse_"todos com esse começo"
 
 ## DONE
 
@@ -59,3 +51,54 @@ Documento que inclui as tarefas pendentes, assim como bugs e sugestões de melho
 
 * [X] FEAT: criar a função de trocar valores da receita
   * = scr_alterar_receita
+  
+* [X] FEAT: criar quando os itens vão para a mão
+
+* [X] FEAT: bowl armazena e recebe os itens
+
+* [X] FIX: correção do endereço dos ingredientes
+
+* [X] FEAT: bowl compara a receita atual com todas as possiveis
+
+* [X] FIX: correção na comparação, a partir do 7° ingrediente sem bater com a receita ele permite assar o bolo
+
+* [X] FEAT: criar um segundo ambiente para o forno
+
+* [X] FEAT: criar a função de adicionar itens à receita
+  * = scr_alterar_receita line 30
+
+* [X] FEAT: criar a função de remover itens da receita
+  * = scr_alterar_receita line 34
+
+* [X] REFACTOR: aplicação de conceito DRY e removendo objetos duplicados
+  * = obj_porcao e obj_unitario
+
+* [X] FEAT: adiciona tutorial rápido ao player
+
+* [X] FEAT: exibir pedido na lateral esquerda
+
+* [X] FEAT: exibir lista de receitas na lateral direita
+
+* [X] FEAT: bowl exibe um sinal visual quando recebe um ingrediente
+
+* [X] FEAT: o jogo possui um mouse próprio
+
+* [X] DOCS: documentar o código dos objetos pedido e livro de receitas
+
+* [X] REFACTOR: se livrar do código vibe coded em livro receitas
+
+* [X] FEAT: configurar o segundo espaço da cozinha
+
+* [X] REFACTOR: cria contorno no sprite mouse fechado
+
+* [X] FEAT: adiciona transição entre dias de jogo
+
+* [X] FEAT: limita personagens com base em dias de jogo
+
+* [X] REFACTOR: varia os ingredientes das receitas
+
+* [X] FEAT: adicionar sons ao jogo
+
+* [X] FIX: corrigir erro no papel do pedido
+
+* [X] FIX: corrigir problema no forno quando não atende nenhum requisito

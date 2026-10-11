@@ -7,14 +7,15 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_recipientes","path":"objects/obj_recipientes/obj_recipientes.yy",},"propertyId":{"name":"conteudo","path":"objects/obj_recipientes/obj_recipientes.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"INGREDIENTES.LARANJA",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_recipientes","path":"objects/obj_recipientes/obj_recipientes.yy",},"propertyId":{"name":"conteudo_name","path":"objects/obj_recipientes/obj_recipientes.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Laranja",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_recipientes","path":"objects/obj_recipientes/obj_recipientes.yy",},"propertyId":{"name":"conteudo_tipo","path":"objects/obj_recipientes/obj_recipientes.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"TIPO_RECIPIENTE.UNIDADE",},
   ],
   "parent":{
     "name":"recipientes",
     "path":"folders/Objetos/Cozinha/recipientes.yy",
   },
   "parentObjectId":{
-    "name":"obj_unitario",
-    "path":"objects/obj_unitario/obj_unitario.yy",
+    "name":"obj_recipientes",
+    "path":"objects/obj_recipientes/obj_recipientes.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
