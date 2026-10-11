@@ -106,6 +106,7 @@
     {"id":{"name":"scr_alterar_receita","path":"scripts/scr_alterar_receita/scr_alterar_receita.yy",},},
     {"id":{"name":"scr_banco_clientes","path":"scripts/scr_banco_clientes/scr_banco_clientes.yy",},},
     {"id":{"name":"scr_circular","path":"scripts/scr_circular/scr_circular.yy",},},
+    {"id":{"name":"scr_compara_receitas","path":"scripts/scr_compara_receitas/scr_compara_receitas.yy",},},
     {"id":{"name":"scr_draw_pop_up","path":"scripts/scr_draw_pop_up/scr_draw_pop_up.yy",},},
     {"id":{"name":"scr_entrega_pedido","path":"scripts/scr_entrega_pedido/scr_entrega_pedido.yy",},},
     {"id":{"name":"scr_receitas","path":"scripts/scr_receitas/scr_receitas.yy",},},

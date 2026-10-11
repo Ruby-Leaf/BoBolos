@@ -9,30 +9,14 @@ if assando {
 	
 	for(var i = 0; i < SABORES_BOLO.ALTURA+1; i++){
 		if i != SABORES_BOLO.ALTURA{
-			if(
-			global.receita_em_producao.baunilha == _receitas[i].baunilha and
-			global.receita_em_producao.chocolate == _receitas[i].chocolate and
-			global.receita_em_producao.farinha == _receitas[i].farinha and
-			global.receita_em_producao.farinhaSg == _receitas[i].farinha_sem_gluten and
-			global.receita_em_producao.laranja == _receitas[i].laranja and
-			global.receita_em_producao.leite == _receitas[i].leite and
-			global.receita_em_producao.leiteVg == _receitas[i].leite_vegetal and
-			global.receita_em_producao.ovo == _receitas[i].ovos
-			){
+			if(scr_compara_receitas(global.receita_em_producao,_receitas[i])){
 				receita_feita = i;
+				
 			}
 		}else{
-			if(
-			global.receita_em_producao.baunilha == global.struct_pedido_atual.baunilha and
-			global.receita_em_producao.chocolate == global.struct_pedido_atual.chocolate and
-			global.receita_em_producao.farinha == global.struct_pedido_atual.farinha and
-			global.receita_em_producao.farinhaSg == global.struct_pedido_atual.farinha_sem_gluten and
-			global.receita_em_producao.laranja == global.struct_pedido_atual.laranja and
-			global.receita_em_producao.leite == global.struct_pedido_atual.leite and
-			global.receita_em_producao.leiteVg == global.struct_pedido_atual.leite_vegetal and
-			global.receita_em_producao.ovo == global.struct_pedido_atual.ovos
-			){
+			if(scr_compara_receitas(global.receita_em_producao,global.struct_pedido_atual)){
 				receita_feita = i;
+				
 				
 				if global.receita_em_producao.baunilha > 0{
 					sabor_realizado = SABORES_BOLO.BAUNILHA
@@ -43,8 +27,6 @@ if assando {
 				if global.receita_em_producao.laranja > 0 {
 					sabor_realizado = SABORES_BOLO.LARANJA
 				}
-			}else{
-				receita_feita = -1;
 			}
 		}
 	}
