@@ -1,5 +1,5 @@
 if pop_up_visible{
-
+	mostrando_resposta = true;
 
 
 if !rom{

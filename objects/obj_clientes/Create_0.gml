@@ -4,6 +4,7 @@ gostou = false
 tocou_som = false
 
 pop_up_visible = false;
+mostrando_resposta = false;
 
 rom = false;
 resposta_gostou = 0;
