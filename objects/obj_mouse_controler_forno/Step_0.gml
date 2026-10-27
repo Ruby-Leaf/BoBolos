@@ -1,3 +1,6 @@
+// ==============================
+// ITENS SEGURADOS
+// ==============================
 if object_exists(obj_mouse_sprite){
 	obj_mouse_sprite.x = mouse_x;
 	obj_mouse_sprite.y = mouse_y;
