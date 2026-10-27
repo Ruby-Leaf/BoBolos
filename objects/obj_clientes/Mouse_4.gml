@@ -12,4 +12,4 @@ if pop_up_visible{
 	instance_deactivate_object(obj_clientes);
 }
 
-pop_up_visible = !pop_up_visible;
+pop_up_visible = true

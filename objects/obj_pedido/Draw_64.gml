@@ -3,6 +3,7 @@
 // ------------------------------
 
 if (pedido_aberto) {
+	lendo_pedido = true;
 	// ---------- aparencia do pop-up
     var _estetica = {
         cor_fundo: make_colour_rgb(255, 245, 240),

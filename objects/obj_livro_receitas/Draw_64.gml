@@ -4,7 +4,7 @@
 
 
 if (pedido_aberto) {
-	
+	lendo_pedido = true;
 	// ---------- Armazena as receitas
     var _receitas = scr_receitas(); // seta as receitas possiveis
 	
