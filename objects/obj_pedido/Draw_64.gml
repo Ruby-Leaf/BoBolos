@@ -14,8 +14,7 @@ if (pedido_aberto) {
     
     var _texto_pop_up = [
         "O cliente " + global.cliente_atual.nome +" pediu:",
-        global.texto_pedido_atual,
-        "(clique no papel do pedido para fechar)"
+        global.texto_pedido_atual
     ]
     
 	// ---------- desenha o pop-up

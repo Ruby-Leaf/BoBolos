@@ -61,7 +61,6 @@ if (pedido_aberto) {
             case 2:
                 array_push(_texto_pop_up, "laranja: " + string(_receitas_principais[i].laranja));
                 array_push(_texto_pop_up, "");
-                array_push(_texto_pop_up, "(Clique no livro para fechar as receitas)");
             break;
         }
         
