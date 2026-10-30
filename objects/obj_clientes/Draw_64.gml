@@ -23,7 +23,6 @@ _texto_pop_up = [
         global.cliente_atual.respostas_positivas[resposta_gostou],
 ];
 }else{
-	
 	_texto_pop_up = [
         global.cliente_atual.nome,
         global.cliente_atual.respostas_negativas[resposta_odiou],

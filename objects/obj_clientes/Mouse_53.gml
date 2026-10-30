@@ -2,4 +2,5 @@
 if mostrando_resposta {
 pop_up_visible = false;
 mostrando_resposta = false;
+resposta_foi_lida = true;
 }
