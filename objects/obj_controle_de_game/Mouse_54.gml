@@ -1,2 +1,0 @@
-//apenas debug
-global.felicidade --;
