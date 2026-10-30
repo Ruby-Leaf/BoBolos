@@ -19,7 +19,7 @@ var _chaves = struct_get_names(_receita_a);
         }
         
         // Compara os valores das chaves
-        if (_receita_a[$ _chaves] != _receita_b[$ _chaves]) {
+        if (_receita_a[$ _chave] != _receita_b[$ _chave]) {
 			
             return false;
         }

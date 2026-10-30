@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"gscr_game",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gscr_game",
+  "parent":{
+    "name":"Globais",
+    "path":"folders/Scripts/Globais.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
