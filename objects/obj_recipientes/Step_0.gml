@@ -72,8 +72,10 @@ if (global.selecionando_ingrediente) {
 	if (point_in_rectangle(_px, _py, _x1_confirm, _y1_confirm, _x2_confirm, _y2_confirm)) {
 		if mouse_check_button(mb_left) {
             if object_exists(obj_controle_sons) obj_controle_sons.play_som_clique();
-			global.segurando.ingrediente = global.endereco_escolhido;
-			global.segurando.quantidade = qnt_selecionada;
+			if qnt_selecionada > 0 {
+				global.segurando.ingrediente = global.endereco_escolhido;
+				global.segurando.quantidade = qnt_selecionada;
+			}
 			global.selecionando_ingrediente = false;
 		}
 	}
