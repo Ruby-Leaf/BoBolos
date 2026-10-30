@@ -8,3 +8,4 @@ cursor_sprite = spr_mouse;
 randomize();
 gscr_cozinha();
 gscr_telefone();
+gscr_game();
