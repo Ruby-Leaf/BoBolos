@@ -128,6 +128,7 @@
     {"id":{"name":"spr_balao_azul","path":"sprites/spr_balao_azul/spr_balao_azul.yy",},},
     {"id":{"name":"spr_balao_rosa","path":"sprites/spr_balao_rosa/spr_balao_rosa.yy",},},
     {"id":{"name":"spr_balao_vermelho","path":"sprites/spr_balao_vermelho/spr_balao_vermelho.yy",},},
+    {"id":{"name":"spr_base_forno","path":"sprites/spr_base_forno/spr_base_forno.yy",},},
     {"id":{"name":"spr_base","path":"sprites/spr_base/spr_base.yy",},},
     {"id":{"name":"spr_baunilha","path":"sprites/spr_baunilha/spr_baunilha.yy",},},
     {"id":{"name":"spr_bg_cozinha","path":"sprites/spr_bg_cozinha/spr_bg_cozinha.yy",},},

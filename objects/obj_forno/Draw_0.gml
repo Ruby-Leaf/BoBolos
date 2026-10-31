@@ -1,7 +1,7 @@
 draw_self();
 
 var _x = 590;
-var _y = y;
+var _y = y + 120;
 
 draw_circular_HP(_x,_y,100,tempo_receita,c_dkgray,32,1,15);
 
